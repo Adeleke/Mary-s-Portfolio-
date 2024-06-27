@@ -19,7 +19,8 @@ Three modules are basics used for functions definition namely; dataset_module, d
 The user could enter 0 to terminate the application and type within 1 14 to execute any other functions that have been defined. The dataset module is implicitly called whenever the main menu is under execution so as to access the dataset.
 As a result, all the modules need to be placed in the working directory for each module to be assessable as well as the dataset itself.
 PROGRAM FLOWCHART
-A flowchart which could be seen as a picture of the separate steps of a process in sequential order is drawn from the viewpoint of the test_module which is the channel from which other modules functions were called or executed is depicted in the flowchart. Below is the program flowchart:
+A flowchart which could be seen as a picture of the separate steps of a process in sequential order is drawn from the viewpoint of the test_module which is the channel from which other modules functions were called or executed is depicted in the flowchart. Below is the program flowchart.
+![Flowchart](https://github.com/Adeleke/Mary-s-Portfolio-/assets/17841608/39e3c38a-f131-4a3a-bf26-e43e4d64c577)
 
 # REFLECTIONS
 Firstly, I had to manually write out the formulars mathematically before thinking of writing any code, in other to give me an idea on what I want to achieve. Getting the knowledge on these statistical formulas was challenging as some of them were at the time unfamiliar to me. E.g the outliers, interquartile range, centroid etc.
