@@ -16,14 +16,14 @@ The program was tested using Google Colab environment. The program was initially
 
 # PROGRAM EXECUTION
 Three modules are basics used for functions definition namely; dataset_module, distance_module, and statistics_module. Their functions are accessed by the test_module which calls a menu function that was defined in the test_module itself. The program is a menu driven application that requires users to follow the prompt instructions on what options to make in order to run any of the distance or statistical function. The main menu is segmented in two which are the distance menu and the statistical menu.
-The user could enter 0 to terminate the application and type within 1 14 to execute any other functions that have been defined. The dataset module is implicitly called whenever the main menu is under execution so as to access the dataset.
+The user could enter 0 to terminate the application and type within 1 to 14 to execute any other functions that have been defined. The dataset module is implicitly called whenever the main menu is under execution so as to access the dataset.
 As a result, all the modules need to be placed in the working directory for each module to be assessable as well as the dataset itself.
-PROGRAM FLOWCHART
+# PROGRAM FLOWCHART
 A flowchart which could be seen as a picture of the separate steps of a process in sequential order is drawn from the viewpoint of the test_module which is the channel from which other modules functions were called or executed is depicted in the flowchart. Below is the program flowchart.
 ![Flowchart](https://github.com/Adeleke/Mary-s-Portfolio-/assets/17841608/39e3c38a-f131-4a3a-bf26-e43e4d64c577)
 
 # REFLECTIONS
-Firstly, I had to manually write out the formulars mathematically before thinking of writing any code, in other to give me an idea on what I want to achieve. Getting the knowledge on these statistical formulas was challenging as some of them were at the time unfamiliar to me. E.g the outliers, interquartile range, centroid etc.
+Firstly, I had to manually write out the formulars mathematically before thinking of writing any code, in other to give me an idea on what I want to achieve. Getting the codes on these statistical formulas was challenging as some of them were at the time unfamiliar to me. E.g the outliers, interquartile range, centroid etc.
 After implementing these formulas I had to do a manual computation using a set of numbers to test their efficacy before calling the dataset. Based on the test carried out the functions were executing correctly. Also using a functional programming structure happens to make the work easier for me as some repeated tasks were enveloped in a function and called several times by different functions.
 One challenge that I encountered was in the reading and opening of the dataset file. Opening the file was easy but saving to the dictionary was difficult as each line of record as a repeated userid which overwrite itself when saved. I overcame this challenge by using a conditional statement to determine if the user previously existed in the dictionary then add his record to the userid else add the userid along.
 An interesting discovery that I got to make is understanding how to get and set working directory on google colab. I got the insight from watching a set of youtube videos and reading the documentation on google colab website. Also, I enjoyed the interactive up to date version of google colab notebook.
